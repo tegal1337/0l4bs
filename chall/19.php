@@ -44,7 +44,7 @@ if(!isset($_GET['status'])) {
             <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
               <div class="terminal-output" id="terminalOutput">
                 <div class="terminal-line">
-                  <span class="help-msg">Chall 18 — Clue : <span class="code">HTML Entities on HTML input value </span> </span>
+                  <span class="help-msg">Chall 19 — Clue : <span class="code">HTML Entities on HTML input value </span> </span>
                 </div>
               </div>
               <div class="terminal-line">
