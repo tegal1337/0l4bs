@@ -41,6 +41,8 @@ Cross-site scripting labs for web application security enthusiasts
   <li>Happy Hacking ^_^</li>
 </ul>
 
+Demo : https://labs.tegal-1337.com/xss-labs/
+
 Visite our website : https://www.tegal-1337.com/
 <br>
 <br>
