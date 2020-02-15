@@ -1,0 +1,13 @@
+We have the following RegEx:
+
+        /(?:\b(?:(?:type\b\W*?\b(?:text\b\W*?\b
+      (?:j(?:ava)?|ecma|vb)|application\b\W*?\bx-(?:java|vb))script|c(?:opyparentfolde
+      r|reatetextrange)|get(?:special|parent)folder|iframe\b.{0,100}?\bsrc)\b|on(?:(?:
+      mo(?:use(?:o(?:ver|ut)|down|move|up)|ve)|key(?:press|down|up)|c(?:hange|lick)|s(
+      ?:elec|ubmi)t|(?:un)?load|dragdrop|resize|focus|blur)\b\W*?=|abort\b)|(?:l(?:ows
+      rc\b\W*?\b(?:(?:java|vb)script|shell|http)|ivescript)|(?:href|url)\b\W*?\b(?:(?:
+      java|vb)script|shell)|background-image|mocha):|s(?:(?:tyle\b\W*=.*\bexpression\b
+      \W*|ettimeout\b\W*?)\(|rc\b\W*?\b(?:(?:java|vb)script|shell|http):)|a(?:ctivexob
+      ject\b|lert\b\W*?\(|sfunction:))|&#x3C;(?:(?:body\b.*?\b(?:backgroun|onloa)d|input\b.
+      *?\btype\b\W*?\bimage)\b| ?(?:(?:script|meta)\b|iframe)|!\[cdata\[)|(?:\.(?:(?:e
+        xecscrip|addimpor)t|(?:fromcharcod|cooki)e|innerhtml)|\@import)\b)/
