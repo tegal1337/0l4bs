@@ -3,6 +3,7 @@
 if(isset($_GET['status'])) {
 } else {
 header('Location:'.$_SERVER['PHP_SELF'].'?'.'status=tegal1337');
+ob_flush();
 die;
 }
 ?>
