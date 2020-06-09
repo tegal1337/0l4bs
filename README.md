@@ -41,6 +41,17 @@ Cross-site scripting labs for web application security enthusiasts
   <li>Happy Hacking ^_^</li>
 </ul>
 
+### Run this image
+
+To run this image you need [docker](http://docker.com) installed. Just run the command:
+
+    docker run --name web-ctf -d -it -p 80:80 hightechsec/xsslabs
+### Deploy Manually Docker image
+
+- Clone this repo (`git clone https://github.com/tegal1337/0l4bs`)
+- Then run `docker build -t "xsslabs" .` and wait untill it's done 
+- If the build is clear, run this command `docker run --name web-ctf -d -it -p 80:80 xsslabs`
+
 Demo : https://dalpan.co/xss-labs/
 
 Visite our website : https://www.tegal-1337.com/
