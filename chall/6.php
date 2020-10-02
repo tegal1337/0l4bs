@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,12 +47,11 @@ if (localStorage.getItem("labs-tegal1337") === null) {
               <div class="terminal-output" id="terminalOutput">
                 <div class="terminal-line">
                   <span class="help-msg">Chall 6 — Clue : <span class="code">LocalStorage</span> <br><br>
-                  Current value of labs-tegal1337 LocalStorage is: labs-tegal1337</span>
+                  <div id="content"></div></span>
                 </div>
               </div>
               <div class="terminal-line">
                   
-
                    <br>
                 <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span>
               </div>
@@ -77,9 +77,8 @@ if (localStorage.getItem("labs-tegal1337") === null) {
   <script src='https://use.fontawesome.com/releases/v5.3.1/js/all.js'></script><script  src="./script.js"></script>
   <script>
 if (localStorage.getItem("labs-tegal1337") !== null) {
-		 document.getElementById("content").innerHTML = "<span style=\"font-size:0.4em;\">Current value of <b>labs-tegal1337</b> LocalStorage is: </span><br>" + localStorage.getItem("labs-tegal1337") + "";
+		 document.getElementById("content").innerHTML = "<span>Current value of <b>labs-tegal1337</b> LocalStorage is: </span>" + localStorage.getItem("labs-tegal1337") + "";
 }
 </script>
 </body>
-
 </html>
