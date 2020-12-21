@@ -110,7 +110,7 @@ if(!isset($_GET['status'])) {
 </body>
 
 </html>
-<!--
+<!-- solved
 /*
 https://www.cdxy.me/?p=763
 https://github.com/nuxsmin/sysPass/blob/master/inc/SP/Html/Html.class.php#L40
