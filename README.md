@@ -52,8 +52,6 @@ To run this image you need [docker](http://docker.com) installed. Just run the c
 - Then run `docker build -t "xsslabs" .` and wait untill it's done 
 - If the build is clear, run this command `docker run --name web-ctf -d -it -p 80:80 xsslabs`
 
-<br>
-<br>
 ### Support our organization by giving donations
 
 [![Foo](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/dalpan)
