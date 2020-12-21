@@ -54,7 +54,6 @@ To run this image you need [docker](http://docker.com) installed. Just run the c
 
 <br>
 <br>
-
-Thnks for Abhi-M and Codepen for References
-
+### Support our organization by giving donations
+[![Foo](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/dalpan)
   
